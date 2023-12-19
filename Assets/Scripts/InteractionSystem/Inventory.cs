@@ -6,6 +6,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public bool HasKey = false;
+    public bool HasAnythingOnHand = false;
 
     private void Update()
     {
